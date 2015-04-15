@@ -1,0 +1,440 @@
+#pg-update {
+	margin-top:25px;
+	margin-bottom: 15px;
+}
+#pg-install a,
+#pg-upgrade a,
+#pg-update a {
+	display: 			inline-block; 
+	padding:			15px 30px 15px 50px;
+	font-size: 			23px;   
+	text-decoration: 	none;
+	box-shadow: 		0 1px 2px rgba(0,0,0,0.6);
+	-moz-box-shadow: 	0 1px 2px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.6);
+	border-radius: 			5px;
+	-moz-border-radius: 	5px; 
+	-webkit-border-radius: 	5px;
+	border-bottom: 		1px solid rgba(0,0,0,0.25);
+	position: 			relative;
+	cursor: 			pointer;
+	text-shadow: 		0 -1px 1px rgba(0,0,0,0.25);
+	font-weight: 		bold;
+	color: 				#fff;
+	background-color: 	#6699cc;
+}
+#pg-install a:hover,
+#pg-upgrade a:hover,
+#pg-update a:hover {
+	background-color: 	#4080BF;
+}
+#pg-install a {
+	width: 6em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-install.png') 10px center no-repeat #6699cc;
+}
+#pg-install a:hover {
+	width: 6em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-install.png') 10px center no-repeat #4080BF;
+}
+#pg-update a {
+	display: block;
+	width: 10em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-upgrade.png') 10px center no-repeat #6699cc;
+}
+#pg-update a:hover {
+	display: block;
+	width: 10em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-upgrade.png') 10px center no-repeat #4080BF;
+}
+#pg-upgrade a {
+	width: 6em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-upgrade.png') 10px center no-repeat #6699cc;
+}
+#pg-upgrade a:hover {
+	width: 6em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-upgrade.png') 10px center no-repeat #4080BF;
+}
+
+div.icon-48-phocadownload {
+	background: url('images/icon-48-phocadownload.png') no-repeat left;
+}
+div.icon-48-info {
+	background: url('images/icon-48-info.png') no-repeat left;
+}
+div.icon-48-tags {
+	background: url('images/icon-48-tags.png') no-repeat left;
+}
+div.icon-48-layout {
+	background: url('images/icon-48-layout.png') no-repeat left;
+}
+div.icon-48-category {
+	background: url('images/icon-48-cat.png') no-repeat left;
+}
+
+div.icon-48-section {
+	background: url('images/icon-48-sec.png') no-repeat left;
+}
+div.icon-48-settings {
+	background: url('images/icon-48-set.png') no-repeat left;
+}
+div.icon-48-file {
+	background: url('images/icon-48-file.png') no-repeat left;
+}
+div.icon-48-statistics {
+	background: url('images/icon-48-stat.png') no-repeat left;
+}
+div.icon-48-userstat {
+	background: url('images/icon-48-user-stat.png') no-repeat left;
+}
+div.icon-48-license {
+	background: url('images/icon-48-lic.png') no-repeat left;
+}
+div.icon-48-users {
+	background: url('images/icon-48-users.png') no-repeat left;
+}
+
+div.icon-48-multiple {
+	background: url('images/icon-48-pd-multiple.png') no-repeat left;
+}
+
+div.icon-48-vote-file {
+	background: url('images/icon-48-vote-file.png') no-repeat left;
+}
+span.icon-32-reset {
+	background: url('images/icon-32-reset.png') no-repeat left;
+}
+span.icon-32-authorizeall {
+	background: url('images/icon-32-authorizeall.png') no-repeat left;
+}
+span.icon-32-multiple {
+	background: url('images/icon-32-multiple.png') no-repeat left;
+}
+
+span.icon-32-disapprove {
+	background: url('images/icon-32-disapprove.png') no-repeat left;
+}
+span.icon-32-approve {
+	background: url('images/icon-32-approve.png') no-repeat left;
+}
+
+/* Phoca Download Editor Button Plugin */
+#phocadownload-links .icon-16-edb-sections {
+	background: #fdfdfd url('images/icon-16-edb-sections.png') no-repeat 5px center;
+	list-style-type:none;
+	padding: 10px 10px 10px 30px;
+	margin:5px;
+	border:1px solid #ccc;
+}
+#phocadownload-links .icon-16-edb-section {
+	background: #fdfdfd url('images/icon-16-edb-section.png') no-repeat  5px center;
+	list-style-type:none;
+	padding: 10px 10px 10px 30px;
+	margin:5px;
+	border:1px solid #ccc;
+}
+#phocadownload-links .icon-16-edb-category {
+	background: #fdfdfd url('images/icon-16-edb-category.png') no-repeat  5px center;
+	list-style-type:none;
+	padding: 10px 10px 10px 30px;
+	margin:5px;
+	border:1px solid #ccc;
+}
+
+#phocadownload-links .icon-16-edb-categories {
+	background: #fdfdfd url('images/icon-16-edb-categories.png') no-repeat  5px center;
+	list-style-type:none;
+	padding: 10px 10px 10px 30px;
+	margin:5px;
+	border:1px solid #ccc;
+}
+#phocadownload-links .icon-16-edb-file {
+	background: #fdfdfd url('images/icon-16-edb-file.png') no-repeat 5px center;
+	list-style-type:none;
+	padding: 10px 10px 10px 30px;
+	margin:5px;
+	border:1px solid #ccc;
+}
+#phocadownload-links .icon-16-edb-play {
+	background: #fdfdfd url('images/icon-16-edb-play.png') no-repeat 5px center;
+	list-style-type:none;
+	padding: 10px 10px 10px 30px;
+	margin:5px;
+	border:1px solid #ccc;
+}
+#phocadownload-links .icon-16-edb-preview {
+	background: #fdfdfd url('images/icon-16-edb-preview.png') no-repeat 5px center;
+	list-style-type:none;
+	padding: 10px 10px 10px 30px;
+	margin:5px;
+	border:1px solid #ccc;
+}
+#phocadownload-links a {
+	text-decoration:underline;
+}
+
+#phocadownload-links .icon-16-edb-back {
+	background: #fdfdfd url('images/icon-16-edb-back.png') no-repeat 5px center;
+	list-style-type:none;
+	padding: 10px 10px 10px 26px;
+	margin:5px;
+	border:1px solid #ccc;
+}
+
+#phocadownload-links th a {
+	text-decoration:none;
+}
+
+.notapproved {
+	background:#FFC2C2;
+	border:1px solid #bf3030;
+	color: #a60000;
+	padding:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.phoca-adminform {
+	background-color: #fff;
+	border: solid 1px #d5d5d5;
+	padding:10px;
+	color: #777;
+}
+.cpanel-right {
+	color: #777;
+}
+
+.pgerrormsg,
+.notapproved {
+	background:#FFC2C2;
+	border:1px solid #bf3030;
+	color: #a60000;
+	padding:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.pgsuccessmsg {
+	background:#ceffc1;
+	border:1px solid #4ebd30;
+	color: #23a600;
+	padding:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.pgunsetmsg {
+	background:#fff2c1;
+	border:1px solid #bda130;
+	color: #a68400;
+	padding:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+#phocadownloadmanager {
+	font-family: sans, arial;
+}
+#phocadownloadmanager a img {
+
+	border: none;
+}
+
+#phocadownloadmanager .pd-admin-path {
+	border: 1px solid #ccc;
+	background: #f0f0f0;
+	padding: 10px;
+	margin:5px 0px;
+}
+#phocadownloadmanager .pd-admin-files {
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 10px;
+	margin:5px 0px;
+}
+
+#phocadownloadmanager .pd-admin-file {
+	padding:3px 0px;
+	margin:0px;
+}
+#phocadownloadmanager .pd-admin-file-checkbox {
+	padding:3px 0px;
+	margin:7px 0px;
+	background: #f9f9f9;
+	border-bottom: 1px solid #f0f0f0
+}
+
+
+/* Rating */
+/* Voting - style by http://www.jluvip.com/works/css/starvote/index2-1.html*/
+ .star-rating{
+	list-style:none;
+	margin: 0px;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:0px;
+	width: 110px;
+	height: 22px;
+	position: relative;
+	background: url(images/icon-voting.png) top left repeat-x;
+}
+
+ .star-rating li{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	/*\*/
+	float: left;
+	/* */
+}
+
+ .star-rating li a{
+	display:block;
+	width:22px;
+	height: 22px;
+	text-decoration: none;
+	text-indent: -9000px;
+	z-index: 20;
+	position: absolute;
+	padding: 0px;
+}
+ .star-rating li a:hover{
+	background: url(images/icon-voting.png) left center;
+	z-index: 2;
+	left: 0px;
+}
+ .star-rating a.star1{
+	left: 0px;
+}
+ .star-rating a.star1:hover{
+	width:22px;
+}
+ .star-rating a.stars2{
+	left:22px;
+}
+ .star-rating a.stars2:hover{
+	width: 44px;
+}
+ .star-rating a.stars3{
+	left: 44px;
+}
+ .star-rating a.stars3:hover{
+	width: 66px;
+}
+ .star-rating a.stars4{
+	left: 66px;
+}
+ .star-rating a.stars4:hover{
+	width: 88px;
+}
+ .star-rating a.stars5{
+	left: 88px;
+}
+ .star-rating a.stars5:hover{
+	width: 110px;
+}
+ .star-rating li.current-rating{
+	background: url(images/icon-voting.png) left bottom;
+	position: absolute;
+	height: 22px;
+	/*width:77px;*/
+	display: block;
+	text-indent: -9000px;
+	z-index: 1;
+}
+
+/* Voting small */
+.star-rating-box-small {
+	border:		1px solid #e7e7e7;
+	padding:	1px;
+	margin:		0px;
+	background:	#fff;
+}
+
+.star-rating-small{
+	list-style:none;
+	margin: 0px;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:0px;
+	width: 80px;
+	height: 16px;
+	position: relative;
+	background: url(images/icon-voting-small.png) top left repeat-x;
+}
+
+.star-rating-small li{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	/*\*/
+	float: left;
+	/* */
+}
+
+.star-rating-small li a{
+	display:block;
+	width:16px;
+	height: 16px;
+	text-decoration: none;
+	text-indent: -9000px;
+	z-index: 20;
+	position: absolute;
+	padding: 0px;
+}
+.star-rating-small li a:hover{
+	background: url(images/icon-voting-small.png) left center;
+	z-index: 2;
+	left: 0px;
+}
+.star-rating-small a.star1{
+	left: 0px;
+}
+.star-rating-small a.star1:hover{
+	width:16px;
+}
+.star-rating-small a.stars2{
+	left:16px;
+}
+.star-rating-small a.stars2:hover{
+	width: 32px;
+}
+.star-rating-small a.stars3{
+	left: 32px;
+}
+.star-rating-small a.stars3:hover{
+	width: 48px;
+}
+.star-rating-small a.stars4{
+	left: 48px;
+}
+.star-rating-small a.stars4:hover{
+	width: 64px;
+}
+.star-rating-small a.stars5{
+	left: 64px;
+}
+.star-rating-small a.stars5:hover{
+	width: 80px;
+}
+.star-rating-small li.current-rating{
+	background: url(images/icon-voting-small.png) left bottom;
+	position: absolute;
+	height: 16px;
+	/*width:77px;*/
+	display: block;
+	text-indent: -9000px;
+	z-index: 1;
+}
+
+.warning {
+	padding: 5px;
+	border: 1px solid #FF8E6B;
+	background: #FFDCD1;
+	color: #FF3F05;
+	margin: 10px 0px;
+}
+
+.pdview {
+	padding: 0px 5px 10px 5px;
+	border: 1px solid #ccc;
+	background: #fff;
+	margin: 5px 0px;
+}

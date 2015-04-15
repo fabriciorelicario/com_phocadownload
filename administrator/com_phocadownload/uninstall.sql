@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS `#__phocadownload`;
+DROP TABLE IF EXISTS `#__phocadownload_categories`;
+-- DROP TABLE IF EXISTS `#__phocadownload_sections`;
+-- DROP TABLE IF EXISTS `#__phocadownload_settings`;
+DROP TABLE IF EXISTS `#__phocadownload_user_stat`;
+DROP TABLE IF EXISTS `#__phocadownload_licenses`;
+DROP TABLE IF EXISTS `#__phocadownload_file_votes`;
+DROP TABLE IF EXISTS `#__phocadownload_file_votes_statistics`;
+DROP TABLE IF EXISTS `#__phocadownload_tags`;
+DROP TABLE IF EXISTS `#__phocadownload_tags_ref`;
+DROP TABLE IF EXISTS `#__phocadownload_layout`;
